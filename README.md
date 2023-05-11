@@ -1,8 +1,8 @@
 # RandomForestRegressorModel
-#Project Description:
+# Project Description:
 This project uses a Random Forest Regressor model to predict stock levels based on sales data and temperature data. The project includes code to load data, split the data into predictor and target variables, train the model using cross-validation, and identify significant features.
 
-#Code Description:
+# Code Description:
 The code is written in Python and uses several libraries, including Pandas, Scikit-learn, Matplotlib, and NumPy.
 
 The main script is predict_stock_levels.py, which contains the following functions:
@@ -17,14 +17,14 @@ features = [i.split("__")[0] for i in X.columns]: Identifies significant feature
 
 The script also includes several import statements and an example of how to use the functions.
 
-#Instructions:
+# Instructions:
 To use this code, follow these steps:
 
 Clone the repository from GitHub.
 Install the required libraries by running pip install -r requirements.txt.
 Run the predict_stock_levels.py script.
 Follow the example to load data, split the data into predictor and target variables, train the model using cross-validation, and identify significant features.
-#References:
+# References:
 Pandas documentation: https://pandas.pydata.org/docs/
 Scikit-learn documentation: https://scikit-learn.org/stable/documentation.html
 Matplotlib documentation: https://matplotlib.org/stable/contents.html
